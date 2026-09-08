@@ -1,0 +1,9 @@
+nba_api==1.11.4
+numpy==2.5.3
+optuna==5.0.0
+pandas==3.0.6
+pyarrow==25.0.1
+pytest==9.1.1
+scikit-learn==1.9.1
+shap==0.52.0
+xgboost==3.4.1
