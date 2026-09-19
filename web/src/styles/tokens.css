@@ -1,0 +1,85 @@
+:root {
+  color-scheme: light;
+
+  --paper: #f6f2e9;
+  --sheet: #fbf8f1;
+  --well: #efeadf;
+  --ink: #1a1814;
+  --ink-2: #4d4941;
+  --ink-3: #6b665c;
+  --ink-4: #a9a498;
+  --rule: rgba(26, 24, 20, 0.1);
+  --rule-strong: rgba(26, 24, 20, 0.22);
+  --wash: rgba(26, 24, 20, 0.045);
+  /* Whatever a chart mark sits on; rings and gaps between marks are drawn in it. */
+  --surface: var(--paper);
+
+  --leather: #e4602c;
+  --leather-band: rgba(228, 96, 44, 0.2);
+  --xgboost: #4a3aa7;
+  --forest: #149668;
+  --baseline: #898781;
+  --raises: #2a78d6;
+  --lowers: #e34948;
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --radius-control: 2px;
+  --radius-panel: 4px;
+  --row-height: 32px;
+  --page-width: 1120px;
+  --quick: 140ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #100f0d;
+    --sheet: #181613;
+    --well: #0b0a09;
+    --ink: #f4f1ea;
+    --ink-2: #c4bfb3;
+    --ink-3: #8f8a7e;
+    --ink-4: #5f5b52;
+    --rule: rgba(244, 241, 234, 0.1);
+    --rule-strong: rgba(244, 241, 234, 0.22);
+    --wash: rgba(244, 241, 234, 0.05);
+    --leather: #d95926;
+    --leather-band: rgba(217, 89, 38, 0.26);
+    --xgboost: #9085e9;
+    --forest: #199e70;
+    --raises: #3987e5;
+    --lowers: #e66767;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #100f0d;
+  --sheet: #181613;
+  --well: #0b0a09;
+  --ink: #f4f1ea;
+  --ink-2: #c4bfb3;
+  --ink-3: #8f8a7e;
+  --ink-4: #5f5b52;
+  --rule: rgba(244, 241, 234, 0.1);
+  --rule-strong: rgba(244, 241, 234, 0.22);
+  --wash: rgba(244, 241, 234, 0.05);
+  --leather: #d95926;
+  --leather-band: rgba(217, 89, 38, 0.26);
+  --xgboost: #9085e9;
+  --forest: #199e70;
+  --raises: #3987e5;
+  --lowers: #e66767;
+}
